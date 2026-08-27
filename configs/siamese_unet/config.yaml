@@ -1,0 +1,21 @@
+# configs/config.yaml
+data_root: "dataset_synthetic" # Provide the path to synthetic data or real data (patched)
+img_size: 256
+batch_size: 32
+num_workers: 24
+
+backbone: "resnet34"           # "resnet18" or "resnet34"
+pretrained: true
+
+epochs: 100
+lr: 0.0003
+weight_decay: 0.0001
+bce_weight: 0.5                # BCEDice loss mix
+pos_weight: 3.0                # upweight the (rarer) 'changed' class
+
+amp: true                      # mixed precision
+threshold: 0.5                 # sigmoid threshold for binarizing change mask
+
+checkpoint_dir: "checkpoints/siamese_unet/resnet_34/synthetic_data"
+log_dir: "runs/siamese_unet/resnet_34/Real_Data_Patched/synthetic_data"
+seed: 42

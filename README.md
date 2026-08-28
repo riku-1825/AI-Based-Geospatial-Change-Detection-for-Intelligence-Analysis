@@ -93,7 +93,7 @@ This project is trained and evaluated on **LEVIR-CD**, the most widely used buil
 ### Dataset Links
 
 | Source | Link |
-| ------ | ---- |
+| ------------------- | ------------------------------------------------------- |
 | Official LEVIR-CD page | <https://justchenhao.github.io/LEVIR/> |
 | OneDrive — raw LEVIR-CD (native 1024×1024) | <https://1drv.ms/f/c/279f2820d299d227/IgDASApj2oKUTL5A3Wx9v7hgAWJLN_8Hj78VlWdjo2EGC70?e=ZYhmqx> |
 | OneDrive — patched LEVIR-CD (256×256, ready to train) | <https://1drv.ms/f/c/279f2820d299d227/IgBj0rgk7m7CTrzCdFNxBTTeAfpDJtmuxNVHoQEAHFkpM8Y?e=TWEcB6> |
@@ -204,7 +204,7 @@ This project builds on the following methods and datasets:
 - **Paper**
 Chen, H., & Shi, Z. (2020). *A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection*. Remote Sensing, 12(10), 1662.
 
-```
+```bibtex
 @article{chen2020spatial,
   title={A spatial-temporal attention-based method and a new dataset for remote sensing image change detection},
   author={Chen, Hao and Shi, Zhenwei},
@@ -222,7 +222,7 @@ Chen, H., & Shi, Z. (2020). *A Spatial-Temporal Attention-Based Method and a New
 - **Paper**
 Daudt, R. C., Le Saux, B., & Boulch, A. (2018). *Fully Convolutional Siamese Networks for Change Detection*. IEEE ICIP.
 
-```
+```bibtex
 @inproceedings{daudt2018fully,
   title={Fully convolutional siamese networks for change detection},
   author={Daudt, Rodrigo Caye and Le Saux, Bertrand and Boulch, Alexandre},
@@ -238,7 +238,7 @@ Daudt, R. C., Le Saux, B., & Boulch, A. (2018). *Fully Convolutional Siamese Net
 - **Paper**
 Bandara, W. G. C., & Patel, V. M. (2022). *A Transformer-Based Siamese Network for Change Detection*. IEEE IGARSS.
 
-```
+```bibtex
 @inproceedings{bandara2022transformer,
   title={A transformer-based siamese network for change detection},
   author={Bandara, Wele Gedara Chaminda and Patel, Vishal M},
@@ -254,7 +254,7 @@ Bandara, W. G. C., & Patel, V. M. (2022). *A Transformer-Based Siamese Network f
 - **Paper**
 Ronneberger, O., Fischer, P., & Brox, T. (2015). *U-Net: Convolutional Networks for Biomedical Image Segmentation*. MICCAI.
 
-```
+```bibtex
 @inproceedings{ronneberger2015unet,
   title={U-net: Convolutional networks for biomedical image segmentation},
   author={Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas},
@@ -270,7 +270,7 @@ Ronneberger, O., Fischer, P., & Brox, T. (2015). *U-Net: Convolutional Networks 
 - **Paper**
 He, K., Zhang, X., Ren, S., & Sun, J. (2016). *Deep Residual Learning for Image Recognition*. IEEE CVPR.
 
-```
+```bibtex
 @inproceedings{he2016deep,
   title={Deep residual learning for image recognition},
   author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
@@ -286,7 +286,7 @@ He, K., Zhang, X., Ren, S., & Sun, J. (2016). *Deep Residual Learning for Image 
 
 If you find this repository useful in your research, please consider citing it:
 
-```
+```bibtex
 @misc{bagh2026geospatialchangedetection,
   author       = {Bhoumik Chandra Bagh},
   title        = {AI-Based Geospatial Change Detection for Intelligence Analysis},

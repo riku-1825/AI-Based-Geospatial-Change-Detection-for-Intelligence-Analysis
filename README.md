@@ -110,7 +110,7 @@ The native LEVIR-CD images are 1024×1024, which is larger than necessary for ef
 python data/prepare_dataset.py --patchify --src LEVIR_CD_Dataset --dst dataset_patched --patch_size 256
 ```
 
-This expects `LEVIR_CD_Dataset/{train,val,test}/{A,B,label}` (the native LEVIR-CD folder layout) and writes the patched dataset to `dataset_patched/{train,val,test}/{A,B,label}`. Once done, point `data_root` in `configs/config.yaml` to `dataset_patched`.
+This expects `LEVIR_CD_Dataset/{train,val,test}/{A,B,label}` (the native LEVIR-CD folder layout) and writes the patched dataset to `dataset_patched/{train,val,test}/{A,B,label}`. Once done, point `data_root` in `configs/siamese_unet/config.yaml` to `dataset_patched`.
 
 ### Generating synthetic data
 

@@ -122,6 +122,8 @@ python data/prepare_dataset.py --synthetic --out dataset_synthetic --n_train 400
 
 This procedurally generates plausible before/after satellite-style image pairs with matching ground-truth change masks, in the exact LEVIR-CD folder format, so it's a drop-in swap for `data_root` in the config.
 
+> A pre-generated version of this synthetic dataset (560 image pairs, with a machine-readable `metadata.csv` manifest and a getting-started notebook) is also published on Kaggle: [Synthetic Bi-Temporal Change Detection Dataset](https://www.kaggle.com/datasets/bhoumikchandrabagh/synthetic-bi-temporal-change-detection-dataset).
+
 ---
 
 ## Setup

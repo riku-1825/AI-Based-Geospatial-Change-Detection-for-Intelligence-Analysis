@@ -151,7 +151,7 @@ Trained checkpoints (Siamese U-Net with ResNet18 and ResNet34 backbones, on both
 ### Training
 
 ```bash
-python train.py --config configs/config.yaml
+python train.py --config configs/siamese_unet/config.yaml
 ```
 Trains the Siamese U-Net on the dataset specified by `data_root` in `configs/config.yaml`, saving the best checkpoint (by validation F1) to `checkpoints/best.pt` and TensorBoard logs to `runs/`.
 
@@ -166,7 +166,7 @@ Runs the trained model on the test split, reporting Precision, Recall, F1, IoU, 
 
 ```bash
 python inference.py --before path/to/before_folder --after path/to/after_folder \
-    --checkpoint checkpoints/best.pt --config configs/config.yaml \
+    --checkpoint checkpoints/best.pt --config configs/siamese_unet/config.yaml \
     --out outputs/inference_results
 ```
 Matches before/after images by filename across the two folders, and for every pair writes a comparison figure and a binary change mask to `--out`, plus a single `summary.csv` covering changed/unchanged area statistics for the whole folder.
